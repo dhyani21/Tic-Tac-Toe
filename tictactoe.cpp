@@ -1,3 +1,9 @@
+/* 	Author: Dhyani
+	Tic Tac Toe
+	May 2020	*/
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -16,7 +22,7 @@ int main()
         board();
         player=(player%2)?1:2;
 
-        cout << "Player " << player << ", enter a number:  ";
+        cout << "Player " << player << ", Enter a number:  ";
         cin >> choice;
 
         mark=(player == 1) ? 'X' : 'O';
@@ -65,9 +71,9 @@ while(i==-1);
     board();
     if(i==1)
 
-        cout<<"==>\aPlayer "<<--player<<" win ";
+        cout<<"==>\a Hurray!! Player "<<--player<<" win!!";
     else
-        cout<<"==>\aGame draw";
+        cout<<"==>\aGame Draw";
 
     cin.ignore();
     cin.get();
